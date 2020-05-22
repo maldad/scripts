@@ -1,0 +1,70 @@
+Responder las preguntas:
+
+1. ¿que es vim?
+  Es un editor de texto.
+  Se caracteriza por su manejo fluido del texto. (dar unos ejemplos como dd, yy, dG)
+  Su ligereza y enfoque también son digas de mencionar. (no hay botones que pulsar)
+  Interfaz limpia y sin cosas unnecesarias. (fancy)
+
+2. ¿para quienes es vim?
+  En mi experiencia he notado que sus principales usuarios son programadores.
+  Aunque he visto posts de personas que lo ocupan para editar Latex. (mencionar el conocimiento de latex)
+    Latex y Lyx
+  También puedes ocuparlo para tomar notas.
+
+3. ¿que diferencia hay respecto a mi IDE?
+  Si estás estudiando probablemente uses un IDE (Integrated Development Environment).
+  La principal diferencia es que vim no sabe de compilar, sólo sirve para editar.
+  Puedes editar cualquier extensión. (escribir: .py, .rb, .sh, .hs, .java, .css, .html...)
+  Un IDE necesita dependencias para poder manejar otros archivos.
+
+4. ¿que ventajas trae su uso?
+  Mejoras en la edición de tu código.
+  En muchas distribuciones Linux, vi es el editor por default, así que conviene iniciarse
+    en su uso para familizarse y saber que hacer en caso de que tengas solamente una pantalla
+    negra enfrente esperando a que escribas algo.
+  Una vez dominado querrás usarlo en todos lados, en tu explorador de archivos, en tu terminal
+    en tu navegador web.
+
+5. ¿como puedo iniciarme en su uso?
+  Primero que nada necesitas paciencia, luego, mucha práctica.
+  Si estás en la escuela aún es recomendable empezar a editar con vim.
+  Vim viene ya instalado en muchas distribuciones Linux.
+    En el caso de Mac es similar y en Windows hay que bajar un asistente de instalación.
+
+Sabiendo esto, pasemos al tema principal del video: Entrar y salir de vim:
+(moverse a una nueva terminal para iniciar de cero)
+Para saber si en tu Linux tienes vim, usa el comando which. En caso de estar instalado
+puedes recurrir a este video de mi amigo Juan, quien también explica cómo instalarlo para Mac.
+
+Ya tienes tu vim instalado? perfecto, procedamos a entrar:
+$ vim
+
+Notarás que tu terminal cambió de aspecto, ahora hay un mensaje en el centro que dice:
+Vim, su versión, su principal desarrollador y algunos mensajes para hacer donaciones.
+
+De aquí el chiste que cuenta cómo salir de vim, no veo alguna Equis sobre la que hacer clic.
+Tampoco veo el cursor de mi terminal. ¿que hago?
+
+No temas, pues hoy te voy a presentar a tu primer compañero de viaje, vamos
+a localizar la tecla : (dos puntos) y la vas a presionar. (Ojo, tiene que ser
+dos puntos, probablemente necesites pulsar SHIFT primero)
+
+Con eso habremos entrado al modo Comando de vim, notarás como al presionar dos puntos
+éstos inmediatamente se dibujaron en la esquina inferior izquierda. Ahora aquí te va el comando
+para salir de vim sin morir en el intento.
+
+:quit
+
+Perfecto! Has escrito tu primer comando en vim, ahora volvamos a entrar para hacer las cosas
+un poco más cortas. (abrir de nuevo vim).
+
+Ya estamos dentro de vim de nuevo, y ahora saldremos con una abreviación del comando QUIT, la
+cual es ni más ni menos:
+
+:q
+
+Lo tienes? Perfecto, sabía que podías hacerlo, ahora que sabes como entrar y salir espero
+que te haya interesado este editor de texto, hemos cubierto el tema del video y lo dejaremos
+hasta aquí, nos vemos en una próxima entrega donde aprenderemos más a fondo qué son los modos
+de vim y cómo manejarlos, hasta luego!
