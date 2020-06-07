@@ -1,0 +1,36 @@
+Estados de Vim
+
+Son similares a la iluminación de un cuarto.
+De un lado, el interruptor enciende la luz mientras
+que del otro la apaga, esto también se conoce como ESTADO.
+
+Al entrar a Vim estaremos en el modo NORMAL.
+
+Cambiar de estado es muy sencillo y hoy aprenderemos dos
+nuevas teclas.
+
+Primero vamos al modo insertar, esto lo logramos con la tecla i.
+
+(Escribamos algunas palabras)
+
+Ahora, para volver al modo NORMAL vamos a presionar Esc.
+
+Si quisiéramos volver a escribir, simplemente tenemos que volver
+al modo insertar.
+
+Otra forma de acceder al modo INSERTAR es con la letra a
+Sin embargo, tiene una pequeña diferencia, lo veremos a continuación
+con la siguiente etiqueta HTML.
+
+<h1></h1>
+
+Situemos el cursor sobre la primera flecha y presionemos i
+
+Ahora veamos la diferencia presionando a en vez de i
+
+Como puedes apreciar, i nos va agregar texto por detrás de nuestro
+cursor, mientras que a lo agregará por delante, usa esas dos
+acciones para recordar su función
+
+i - insertar (insert)
+a - agregar  (append)
