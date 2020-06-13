@@ -1,9 +1,11 @@
+Hola mundo, bienvenidos al primer video de una serie donde aprenderemos a usar vim.
+
 Responder las preguntas:
 
 1. ¿que es vim?
   Es un editor de texto.
   Se caracteriza por su manejo fluido del texto. (dar unos ejemplos como dd, yy, dG)
-  Su ligereza y enfoque también son digas de mencionar. (no hay botones que pulsar)
+  Su ligereza y enfoque también son dignas de mencionar. (no hay botones que pulsar)
   Interfaz limpia y sin cosas unnecesarias. (fancy)
 
 2. ¿para quienes es vim?
@@ -19,17 +21,17 @@ Responder las preguntas:
   Un IDE necesita dependencias para poder manejar otros archivos.
 
 4. ¿que ventajas trae su uso?
-  Mejoras en la edición de tu código.
-  En muchas distribuciones Linux, vi es el editor por default, así que conviene iniciarse
+  Eres más eficiente en la edicion de tu código.
+  En muchas distribuciones Linux, vi (predecesor de vim) es el editor por default, así que conviene iniciarse
     en su uso para familizarse y saber que hacer en caso de que tengas solamente una pantalla
     negra enfrente esperando a que escribas algo.
-  Una vez dominado querrás usarlo en todos lados, en tu explorador de archivos, en tu terminal
+  Una vez dominado querrás usarlo en todos lados, en tu explorador de archivos, en tu terminal,
     en tu navegador web.
 
 5. ¿como puedo iniciarme en su uso?
   Primero que nada necesitas paciencia, luego, mucha práctica.
   Si estás en la escuela aún es recomendable empezar a editar con vim.
-  Vim viene ya instalado en muchas distribuciones Linux.
+  Vim ya viene instalado en muchas distribuciones Linux.
     En el caso de Mac es similar y en Windows hay que bajar un asistente de instalación.
 
 Sabiendo esto, pasemos al tema principal del video: Entrar y salir de vim:
@@ -45,6 +47,9 @@ Vim, su versión, su principal desarrollador y algunos mensajes para hacer donac
 
 De aquí el chiste que cuenta cómo salir de vim, no veo alguna Equis sobre la que hacer clic.
 Tampoco veo el cursor de mi terminal. ¿que hago?
+
+Quiero que pongas especial atención al borde inferior de la pantalla, pues esa esa la barra
+de estado que nos va a brindar información sobre vim.
 
 No temas, pues hoy te voy a presentar a tu primer compañero de viaje, vamos
 a localizar la tecla : (dos puntos) y la vas a presionar. (Ojo, tiene que ser
@@ -68,3 +73,5 @@ Lo tienes? Perfecto, sabía que podías hacerlo, ahora que sabes como entrar y s
 que te haya interesado este editor de texto, hemos cubierto el tema del video y lo dejaremos
 hasta aquí, nos vemos en una próxima entrega donde aprenderemos más a fondo qué son los modos
 de vim y cómo manejarlos, hasta luego!
+
+Gracias por ver el video, compartan con sus compañeros de trabajo o de escuela y recuerden, mucha práctica!
