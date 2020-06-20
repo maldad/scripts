@@ -1,0 +1,16 @@
+Vim - Abriendo y cerrando archivos
+
+Abrir un documento
+-> Comandos :e y :edit
+-> Abrir con Vim un documento que no existe sólo le da nombre al buffer
+  -> El cual es un espacio en la memoria dedicada a la edición del documento
+  -> Veremos la explicación de los buffers más adelante
+
+Guardar un documento
+-> Comandos :write y :w
+
+Guardar y salir
+-> Comando :wq
+-> Comando :x
+
+Mencionar discord
