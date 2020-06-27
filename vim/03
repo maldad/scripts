@@ -1,0 +1,89 @@
+HJKL
+Vim - Movimiento unitario.
+Hola y bienvenidos programadores a una parte más de nuestro curso de Vim
+
+Pero antes que nada:
+Saludos a mi amigo Oscar Hipólito, quien asistió conmigo
+a la universidad y quien también es programador.
+
+Hoy vamos a aprender cómo mover el cursor.
+Llamaremos a esto MOVIMIENTO UNITARIO ya que nos vamos
+a desplazar un caracter y una línea a la vez.
+
+Se puede llegar a pensar que simplemente podemos hacer clic
+en cualquier lugar de nuestro documento y que el cursor
+naturalmente se moverá ahi. (intentar esto)
+
+Esto no funciona al menos en mi terminal que estoy utilizando.
+
+Así que como programadores la primera alternativa que llega
+a nuestra mente es la de llevar nuestra mano a las flechitas
+de dirección.
+
+Esto es válido, ¿pero que pasa al realizar esta acción?
+Vamos a nuestro teclado para verlo con más claridad...
+
+Cuando estamos programando, solemos tener nuestras manos en el
+centro del teclado, nuestros índices deben caer sobre la F y la
+J, las cuales son letras que tienen un relieve que nos sirve
+para guiarnos y saber en qué posición y área del teclado
+estamos.
+
+Al programar, las flechitas de movimiento no representan
+carácter alguno, ¿así que porqué utilizarlas?
+
+Además, llevar mi mano hasta las flechitas conlleva un gran
+movimiento sólo para mover el cursor y luego volver a mi
+posición inicial.
+
+Así que hoy vamos a introducir a cuatro amigos que te llevarán
+de la mano en esto del movimiento unitario, y son los siguientes:
+
+HJKL
+
+Estas teclas están en una posición del teclado que se conoce como
+HOME ROW.
+La cual según una googleada rápida es la fila de teclas donde los
+dedos descansan cuando no se está escribiendo.
+
+En este nuevo teclado podemos ver que dichas teclas están resaltadas
+y es porque son muy importantes.
+
+Vamos a ver qué es lo que hace cada una de ellas.
+
+h -> nos mueve un caracter hacia la izquierda
+l -> nos mueve un caracter hacia la derecha
+j -> nos mueve una linea hacia abajo
+k -> nos mueve una linea hacia arriba
+
+Hay que tener mucho cuidado (y esto es algo que no había mencionado antes)
+de identificar si estamos en el modo MAYÚSCULAS,
+(Voy a cambiar al modo mayus para demostrar esto)
+
+Ya que dentro de Vim
+h es la tecla para llevarnos un carácter hacia la izquierda pero H realiza
+otra acción la cual es colocar nuestro cursor al principio de la pantalla.
+Lo mismo pasa con J y L
+K es una acción que aún no he utilizado ni estudiado.
+Si alguna de las cuatro teclas que acabamos de mencionar no te funciona
+como debería, revisa que no estés en el modo Bloq Mayus, ese modo es peligroso
+y no deberías utilizarlo salvo en contadas ocasiones (cuando no estés dentro de Vim)
+
+Ya les he adelantado lo que hacen H y L, se estarán preguntando:
+¿por qué maldad nos prohibe usar el modo Bloq Mayus si bien hay teclas
+que necesitan ser presionadas en Mayúsculas para realizar cierta acción?
+
+Bueno, eso tiene una explicación y es que normalmente para activar dichas
+teclas en mayúsculas vas a utilizar tu tecla SHIFT
+
+(hacer una demostración de H y J usando SHIFT)
+
+Con esto, te previenes de olvidar desactivar el modo Bloq Mayus y realizar
+acciones por error ;)
+
+Acerca del movimiento unitario muchos pensarán, uy así que chiste,
+tengo que presionar mil veces la tecla J si tengo en mi archivo mil líneas.
+Eso es cierto, lo admito, pero tranquilos, primero
+aprendemos a caminar, y luego aprendemos a volar ;)
+
+Mencionar discord.
