@@ -1,0 +1,16 @@
+Números y números de línea
+
+Usando los números
+- multiplicar el movimiento
+- saltar hacia una línea
+
+Mostrar números de línea
+- en un editor normal al compilar
+- podemos hacer que Vim muestre los números
+- set number
+- set nonumber
+- set relativenumber
+  - útil cuando queremos bajar cierta cantidad de líneas
+- set norelativenumber
+
+Razón de porque no utilizo números de línea
