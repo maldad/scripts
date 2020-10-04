@@ -1,0 +1,42 @@
+Copiar, pegar y cortar
+
+Copiando:
+ - y (tecla indicadora para copiar)
+ - yy
+ - y{motion}
+  - yw
+  - y$
+  - y^
+  - yG
+  - ygg
+
+Pegando
+- p (tecla indicadora para pegar)
+- P
+- p (viniendo de copiar con una motion (w, $, ^, gg))
+- ]p
+- [p
+
+Cortando
+- d (tecla general para cortar)
+- dd
+- d{motion}
+ - dw
+ - db
+ - d^
+ - d$
+ - dgg
+ - dG
+ - df{character}
+ - dt{character}
+ - D
+
+Sustitución
+- cc
+- c{motion}
+  - cw
+  - c$
+  - c^
+  - cgg
+  - cG
+- s
